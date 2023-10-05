@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #FFF2FB;
+}
+
+h1, h2, h3 {
+    font-size: 16px;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settings {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.settings-page {
+    text-align: right;
+    input, button {
+        width: 100%;
+    }
+}
+
+.loading {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.filterInput {
+    width: 100%;
+    padding: 10px;
+}
+
+.courses {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.course {
+    background: #54F2F0;
+    border: 5px solid white;
+    outline: 2px solid black;
+    padding:10px;
+}
+
+.assignment_group {
+    background: #4EBBFF;
+    border: 5px solid white;
+    outline: 2px solid black;
+    padding: 10px;
+}
+
+.assignment {
+    background: #AF7AFA;
+    border: 5px solid white;
+    outline: 2px solid black;
+    padding: 10px;
+}
+
+.assignment {
+    background-color: #AE7AFA;
+    border: 5px solid white;
+    outline: 2px solid black;
+}
+
+.course, .assignment, .assignment_group {
+    padding: 10px;
+}
+
+.container {
+    width: 20rem;
+    max-height: 50%;
+    overflow: auto;
+}
+
+details {
+    margin: 10px 0;
+    display: block;
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+button:disabled {
+    opacity: 0.4;
+}
+
+details > summary {
+    list-style: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+details > summary:hover {
+    cursor: pointer;
+}
+
+.assignments > details {
+    margin: 10px 0;
+}
+
+.description {
+    padding: 10px;
+}
+
+.module {
+    border: 1px solid green;
+}
+
+.item {
+    border: 1px solid blue;
+}
+
+.assignment.due, .due {
+    background: #FFA351;
+}
+
+.assignment.late, .late {
+    background: #FF7171;
+}
+
+.assignment.graded, .graded {
+    background: #2BE786;
+}
+
+.assignment.pending, .submitted {
+    background: #f7dd48;
+}
+
+.assignment.old, .old {
+    background: #d6d6d6;
+}
+
+.future {
+    background: #AE7AFA;
+}
+
+.legend {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 50%;
+    font-weight: bold;
+}
+
+.legend li {
+    list-style-type: none;
+    padding: 4px;
+}

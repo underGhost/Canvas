@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Canvas School Extension",
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "Canvas School Extension"
+    },
+    "permissions": [
+        "storage",
+        "debugger"
+    ],
+    "host_permissions": ["https://temecula.instructure.com/api/*"],
+    "icons": {
+        "128": "logo.png"
+      }
+}
