@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "manifest_version": 3,
     "name": "Canvas School Extension",
     "action": {
@@ -10,7 +10,7 @@
         "storage",
         "debugger"
     ],
-    "host_permissions": ["https://temecula.instructure.com/api/*"],
+    "host_permissions": ["https://*.instructure.com/api/*"],
     "icons": {
         "128": "logo.png"
       }
